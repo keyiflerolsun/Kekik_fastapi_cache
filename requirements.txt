@@ -1,0 +1,7 @@
+aiomcache==0.8.2
+fastapi==0.111.1
+pendulum==3.0.0
+setuptools==70.3.0
+setuptools==69.5.1
+starlette==0.37.2
+typing_extensions==4.12.2
