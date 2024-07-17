@@ -4,7 +4,6 @@ from Kekik_fastapi_cache.backends import Backend
 from Kekik_fastapi_cache.coder import Coder, JsonCoder
 from Kekik_fastapi_cache.key_builder import default_key_builder
 
-
 class FastAPICache:
     _backend: Optional[Backend] = None
     _prefix: Optional[str] = None
@@ -77,3 +76,6 @@ class FastAPICache:
         assert cls._backend and cls._prefix is not None, "You must call init first!"  # nosec: B101
         namespace = cls._prefix + (":" + namespace if namespace else "")
         return await cls._backend.clear(namespace, key)
+
+from Kekik_fastapi_cache.backends.inmemory import InMemoryBackend
+from Kekik_fastapi_cache.decorator         import cache

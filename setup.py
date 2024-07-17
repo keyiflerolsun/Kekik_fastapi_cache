@@ -6,7 +6,7 @@ from io         import open
 setup(
     # ? Genel Bilgiler
     name         = "Kekik_fastapi_cache",
-    version      = "0.2.2",
+    version      = "0.2.3",
     url          = "https://github.com/keyiflerolsun/Kekik_fastapi_cache",
     description  = "Kekik FastAPI Cache",
     keywords     = ["Kekik_fastapi_cache", "KekikAkademi", "keyiflerolsun"],
