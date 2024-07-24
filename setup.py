@@ -6,7 +6,7 @@ from io         import open
 setup(
     # ? Genel Bilgiler
     name         = "Kekik_fastapi_cache",
-    version      = "0.2.3",
+    version      = "0.2.4",
     url          = "https://github.com/keyiflerolsun/Kekik_fastapi_cache",
     description  = "Kekik FastAPI Cache",
     keywords     = ["Kekik_fastapi_cache", "KekikAkademi", "keyiflerolsun"],
@@ -23,7 +23,7 @@ setup(
 
     # ? Paket Bilgileri
     packages         = ["Kekik_fastapi_cache"],
-    python_requires  = ">=3.11",
+    python_requires  = ">=3.10",
     install_requires = [
         "setuptools",
         "wheel",
